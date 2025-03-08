@@ -148,7 +148,7 @@ main {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .hero {
-        height: 300px; /* Slightly shorter on mobile */
+        height: 350px; /* Slightly shorter on mobile */
     }
 
     .hero-desktop {
@@ -368,6 +368,7 @@ footer {
 
 .footer-links a {
     color: var(--text-secondary);
+    text-decoration: none;
 }
 
 .footer-links a:hover {
